@@ -167,11 +167,83 @@ input[type="submit"] {
 
 /* Configuração de Responsividade */
 
+@media (max-width: 1000px) {
+
+
+    .esquerda {
+        display: flex;
+        width: 50%;
+        
+        
+    }
+
+    .direita {
+
+        width: 50%;
+        
+    }
+
+
+    .conteudo-esquerda {
+
+        width: 80%;
+        
+        
+    }
+
+    .conteudo-direita {
+
+        width: 80%;
+        
+
+    }
+
+
+
+}
+
+
 
 @media (max-width: 800px) {
 
 
-    
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+
+
+    }
+
+    .esquerda {
+        display: flex;
+        min-height: 70vh;
+        width: 100%;
+        
+    }
+
+    .direita {
+
+        width: 100%;
+        
+    }
+
+
+    .conteudo-esquerda {
+
+        width: 70%;
+        padding: 40px;
+        
+    }
+
+    .conteudo-direita {
+
+        width: 70%;
+        padding: 40px;
+
+    }
+
 
 
 }
