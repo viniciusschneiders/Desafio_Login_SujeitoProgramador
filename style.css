@@ -123,19 +123,6 @@ input[type="submit"] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .direita {
 
     display: flex;
@@ -174,5 +161,17 @@ input[type="submit"] {
     font-size: 18px;
     font-weight: 300;
     line-height: 150%;
+
+}
+
+
+/* Configuração de Responsividade */
+
+
+@media (max-width: 800px) {
+
+
+    
+
 
 }
